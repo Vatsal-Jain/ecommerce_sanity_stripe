@@ -13,10 +13,12 @@ const ProductDetails = ({product,products}) => {
     const [index,setIndex] = useState(0);
     const {decQty,incQty,qty,onAdd,setShowCart} = useStateContext();
 
-    const handleBuyNow  = () => {
+    const handleBuyNow = () => {
         onAdd(product,qty);
         setShowCart(true);
+
     }
+    
 
 
   return (
@@ -58,9 +60,11 @@ const ProductDetails = ({product,products}) => {
            </p>
 
        </div>
-       <h4>Details:</h4>
+       
+       <h4>Details</h4>
        <p>{details}</p>
        <p className='price'>₹{price}</p>
+       
        <div className='quantity'>
            <h3>Quantity:</h3>
            <p className='quantity-desc'>

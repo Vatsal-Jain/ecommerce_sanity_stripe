@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^2.18.3",
     "@sanity/client": "^3.2.0",
     "@sanity/image-url": "^1.0.1",
     "@stripe/stripe-js": "^1.25.0",
+    "aws-amplify": "^4.3.24",
     "canvas-confetti": "^1.5.1",
     "next": "12.1.0",
+    "next-auth": "^4.3.4",
     "next-sanity-image": "^3.2.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",

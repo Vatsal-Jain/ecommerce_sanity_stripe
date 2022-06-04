@@ -35,6 +35,10 @@ export default {
         name: 'details',
         title: 'Details',
         type: 'string',
-      }
+      },
+  
     ]
   }
+
+//   ? Build Command:  npm.cmd run-script build
+// ? Start Command: npm.cmd run-script start

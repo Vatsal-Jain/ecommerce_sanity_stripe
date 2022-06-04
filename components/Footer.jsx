@@ -1,14 +1,15 @@
 import React from 'react'
 import { AiFillInstagram,AiOutlineTwitter } from 'react-icons/ai'
 
+
 const Footer = () => {
   return (
     <div className='footer-container'>
-     <p>2022 © The Headphone Store All rights reserved</p>
+     <p>2022 © The Wearables All rights reserved</p>
     <p className='icons'>
 
-      <AiFillInstagram />
-      <AiOutlineTwitter />
+<a href='https://instagram.com'>    <AiFillInstagram /> </a>  
+<a href='https://twitter.com'>    <AiOutlineTwitter /> </a>  
     </p>
     </div>
   )
